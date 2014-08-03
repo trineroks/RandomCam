@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FE6F94198E046D00E148C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F93198E046D00E148C0 /* Foundation.framework */; };
+		34FE6F96198E046D00E148C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F95198E046D00E148C0 /* CoreGraphics.framework */; };
+		34FE6F98198E046D00E148C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F97198E046D00E148C0 /* UIKit.framework */; };
+		34FE6F9E198E046D00E148C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FE6F9C198E046D00E148C0 /* InfoPlist.strings */; };
+		34FE6FA0198E046D00E148C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE6F9F198E046D00E148C0 /* main.m */; };
+		34FE6FA4198E046D00E148C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE6FA3198E046D00E148C0 /* AppDelegate.m */; };
+		34FE6FA7198E046D00E148C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FE6FA5198E046D00E148C0 /* Main.storyboard */; };
+		34FE6FAA198E046D00E148C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE6FA9198E046D00E148C0 /* ViewController.m */; };
+		34FE6FAC198E046D00E148C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FE6FAB198E046D00E148C0 /* Images.xcassets */; };
+		34FE6FB3198E046E00E148C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FB2198E046E00E148C0 /* XCTest.framework */; };
+		34FE6FB4198E046E00E148C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F93198E046D00E148C0 /* Foundation.framework */; };
+		34FE6FB5198E046E00E148C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F97198E046D00E148C0 /* UIKit.framework */; };
+		34FE6FBD198E046E00E148C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FE6FBB198E046E00E148C0 /* InfoPlist.strings */; };
+		34FE6FBF198E046E00E148C0 /* ThredditCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE6FBE198E046E00E148C0 /* ThredditCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FE6FB6198E046E00E148C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FE6F88198E046D00E148C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FE6F8F198E046D00E148C0;
+			remoteInfo = ThredditCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34FE6F90198E046D00E148C0 /* ThredditCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThredditCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FE6F93198E046D00E148C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34FE6F95198E046D00E148C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34FE6F97198E046D00E148C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34FE6F9B198E046D00E148C0 /* ThredditCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThredditCamera-Info.plist"; sourceTree = "<group>"; };
+		34FE6F9D198E046D00E148C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FE6F9F198E046D00E148C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34FE6FA1198E046D00E148C0 /* ThredditCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThredditCamera-Prefix.pch"; sourceTree = "<group>"; };
+		34FE6FA2198E046D00E148C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34FE6FA3198E046D00E148C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34FE6FA6198E046D00E148C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34FE6FA8198E046D00E148C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34FE6FA9198E046D00E148C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34FE6FAB198E046D00E148C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34FE6FB1198E046E00E148C0 /* ThredditCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThredditCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FE6FB2198E046E00E148C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34FE6FBA198E046E00E148C0 /* ThredditCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThredditCameraTests-Info.plist"; sourceTree = "<group>"; };
+		34FE6FBC198E046E00E148C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FE6FBE198E046E00E148C0 /* ThredditCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThredditCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FE6F8D198E046D00E148C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6F96198E046D00E148C0 /* CoreGraphics.framework in Frameworks */,
+				34FE6F98198E046D00E148C0 /* UIKit.framework in Frameworks */,
+				34FE6F94198E046D00E148C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FE6FAE198E046E00E148C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6FB3198E046E00E148C0 /* XCTest.framework in Frameworks */,
+				34FE6FB5198E046E00E148C0 /* UIKit.framework in Frameworks */,
+				34FE6FB4198E046E00E148C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FE6F87198E046D00E148C0 = {
+			isa = PBXGroup;
+			children = (
+				34FE6F99198E046D00E148C0 /* ThredditCamera */,
+				34FE6FB8198E046E00E148C0 /* ThredditCameraTests */,
+				34FE6F92198E046D00E148C0 /* Frameworks */,
+				34FE6F91198E046D00E148C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FE6F91198E046D00E148C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6F90198E046D00E148C0 /* ThredditCamera.app */,
+				34FE6FB1198E046E00E148C0 /* ThredditCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FE6F92198E046D00E148C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6F93198E046D00E148C0 /* Foundation.framework */,
+				34FE6F95198E046D00E148C0 /* CoreGraphics.framework */,
+				34FE6F97198E046D00E148C0 /* UIKit.framework */,
+				34FE6FB2198E046E00E148C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34FE6F99198E046D00E148C0 /* ThredditCamera */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6FA2198E046D00E148C0 /* AppDelegate.h */,
+				34FE6FA3198E046D00E148C0 /* AppDelegate.m */,
+				34FE6FA5198E046D00E148C0 /* Main.storyboard */,
+				34FE6FA8198E046D00E148C0 /* ViewController.h */,
+				34FE6FA9198E046D00E148C0 /* ViewController.m */,
+				34FE6FAB198E046D00E148C0 /* Images.xcassets */,
+				34FE6F9A198E046D00E148C0 /* Supporting Files */,
+			);
+			path = ThredditCamera;
+			sourceTree = "<group>";
+		};
+		34FE6F9A198E046D00E148C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6F9B198E046D00E148C0 /* ThredditCamera-Info.plist */,
+				34FE6F9C198E046D00E148C0 /* InfoPlist.strings */,
+				34FE6F9F198E046D00E148C0 /* main.m */,
+				34FE6FA1198E046D00E148C0 /* ThredditCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FE6FB8198E046E00E148C0 /* ThredditCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6FBE198E046E00E148C0 /* ThredditCameraTests.m */,
+				34FE6FB9198E046E00E148C0 /* Supporting Files */,
+			);
+			path = ThredditCameraTests;
+			sourceTree = "<group>";
+		};
+		34FE6FB9198E046E00E148C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FE6FBA198E046E00E148C0 /* ThredditCameraTests-Info.plist */,
+				34FE6FBB198E046E00E148C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FE6F8F198E046D00E148C0 /* ThredditCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FE6FC2198E046E00E148C0 /* Build configuration list for PBXNativeTarget "ThredditCamera" */;
+			buildPhases = (
+				34FE6F8C198E046D00E148C0 /* Sources */,
+				34FE6F8D198E046D00E148C0 /* Frameworks */,
+				34FE6F8E198E046D00E148C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThredditCamera;
+			productName = ThredditCamera;
+			productReference = 34FE6F90198E046D00E148C0 /* ThredditCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FE6FB0198E046E00E148C0 /* ThredditCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FE6FC5198E046E00E148C0 /* Build configuration list for PBXNativeTarget "ThredditCameraTests" */;
+			buildPhases = (
+				34FE6FAD198E046E00E148C0 /* Sources */,
+				34FE6FAE198E046E00E148C0 /* Frameworks */,
+				34FE6FAF198E046E00E148C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FE6FB7198E046E00E148C0 /* PBXTargetDependency */,
+			);
+			name = ThredditCameraTests;
+			productName = ThredditCameraTests;
+			productReference = 34FE6FB1198E046E00E148C0 /* ThredditCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FE6F88198E046D00E148C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = trineroks;
+				TargetAttributes = {
+					34FE6FB0198E046E00E148C0 = {
+						TestTargetID = 34FE6F8F198E046D00E148C0;
+					};
+				};
+			};
+			buildConfigurationList = 34FE6F8B198E046D00E148C0 /* Build configuration list for PBXProject "ThredditCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FE6F87198E046D00E148C0;
+			productRefGroup = 34FE6F91198E046D00E148C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FE6F8F198E046D00E148C0 /* ThredditCamera */,
+				34FE6FB0198E046E00E148C0 /* ThredditCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FE6F8E198E046D00E148C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6FAC198E046D00E148C0 /* Images.xcassets in Resources */,
+				34FE6F9E198E046D00E148C0 /* InfoPlist.strings in Resources */,
+				34FE6FA7198E046D00E148C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FE6FAF198E046E00E148C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6FBD198E046E00E148C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FE6F8C198E046D00E148C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6FAA198E046D00E148C0 /* ViewController.m in Sources */,
+				34FE6FA4198E046D00E148C0 /* AppDelegate.m in Sources */,
+				34FE6FA0198E046D00E148C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FE6FAD198E046E00E148C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE6FBF198E046E00E148C0 /* ThredditCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FE6FB7198E046E00E148C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FE6F8F198E046D00E148C0 /* ThredditCamera */;
+			targetProxy = 34FE6FB6198E046E00E148C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FE6F9C198E046D00E148C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FE6F9D198E046D00E148C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34FE6FA5198E046D00E148C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FE6FA6198E046D00E148C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34FE6FBB198E046E00E148C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FE6FBC198E046E00E148C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FE6FC0198E046E00E148C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34FE6FC1198E046E00E148C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FE6FC3198E046E00E148C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
+				INFOPLIST_FILE = "ThredditCamera/ThredditCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34FE6FC4198E046E00E148C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
+				INFOPLIST_FILE = "ThredditCamera/ThredditCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34FE6FC6198E046E00E148C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThredditCamera.app/ThredditCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThredditCameraTests/ThredditCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34FE6FC7198E046E00E148C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThredditCamera.app/ThredditCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
+				INFOPLIST_FILE = "ThredditCameraTests/ThredditCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FE6F8B198E046D00E148C0 /* Build configuration list for PBXProject "ThredditCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FE6FC0198E046E00E148C0 /* Debug */,
+				34FE6FC1198E046E00E148C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FE6FC2198E046E00E148C0 /* Build configuration list for PBXNativeTarget "ThredditCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FE6FC3198E046E00E148C0 /* Debug */,
+				34FE6FC4198E046E00E148C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34FE6FC5198E046E00E148C0 /* Build configuration list for PBXNativeTarget "ThredditCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FE6FC6198E046E00E148C0 /* Debug */,
+				34FE6FC7198E046E00E148C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FE6F88198E046D00E148C0 /* Project object */;
+}
