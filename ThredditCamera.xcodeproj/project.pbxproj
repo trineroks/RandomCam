@@ -21,6 +21,20 @@
 		34FE6FB5198E046E00E148C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6F97198E046D00E148C0 /* UIKit.framework */; };
 		34FE6FBD198E046E00E148C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FE6FBB198E046E00E148C0 /* InfoPlist.strings */; };
 		34FE6FBF198E046E00E148C0 /* ThredditCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE6FBE198E046E00E148C0 /* ThredditCameraTests.m */; };
+		34FE6FC9198E152F00E148C0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FC8198E152F00E148C0 /* AVFoundation.framework */; };
+		34FE6FCB198E231500E148C0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FCA198E231500E148C0 /* Parse.framework */; };
+		34FE6FCE198E259E00E148C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FCD198E259E00E148C0 /* SystemConfiguration.framework */; };
+		34FE6FD2198E266400E148C0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FD1198E266400E148C0 /* Accounts.framework */; };
+		34FE6FD4198E266B00E148C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FD3198E266B00E148C0 /* AudioToolbox.framework */; };
+		34FE6FD5198E267100E148C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FCF198E261400E148C0 /* CFNetwork.framework */; };
+		34FE6FD7198E267D00E148C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FD6198E267D00E148C0 /* CoreLocation.framework */; };
+		34FE6FD9198E268400E148C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FD8198E268400E148C0 /* libz.dylib */; };
+		34FE6FDB198E269000E148C0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FDA198E269000E148C0 /* MobileCoreServices.framework */; };
+		34FE6FDD198E269500E148C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FDC198E269500E148C0 /* QuartzCore.framework */; };
+		34FE6FDF198E269B00E148C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FDE198E269B00E148C0 /* Security.framework */; };
+		34FE6FE1198E26A000E148C0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FE0198E26A000E148C0 /* Social.framework */; };
+		34FE6FE3198E26A400E148C0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE6FE2198E26A400E148C0 /* StoreKit.framework */; };
+		34FE7001198E49C300E148C0 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE7000198E49C300E148C0 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,21 @@
 		34FE6FBA198E046E00E148C0 /* ThredditCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThredditCameraTests-Info.plist"; sourceTree = "<group>"; };
 		34FE6FBC198E046E00E148C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34FE6FBE198E046E00E148C0 /* ThredditCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThredditCameraTests.m; sourceTree = "<group>"; };
+		34FE6FC8198E152F00E148C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34FE6FCA198E231500E148C0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Downloads/Parse.framework; sourceTree = "<group>"; };
+		34FE6FCD198E259E00E148C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		34FE6FCF198E261400E148C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		34FE6FD1198E266400E148C0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		34FE6FD3198E266B00E148C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		34FE6FD6198E267D00E148C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		34FE6FD8198E268400E148C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		34FE6FDA198E269000E148C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		34FE6FDC198E269500E148C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		34FE6FDE198E269B00E148C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		34FE6FE0198E26A000E148C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		34FE6FE2198E26A400E148C0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		34FE6FFF198E49C300E148C0 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		34FE7000198E49C300E148C0 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +89,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FE6FE3198E26A400E148C0 /* StoreKit.framework in Frameworks */,
+				34FE6FE1198E26A000E148C0 /* Social.framework in Frameworks */,
+				34FE6FDF198E269B00E148C0 /* Security.framework in Frameworks */,
+				34FE6FDD198E269500E148C0 /* QuartzCore.framework in Frameworks */,
+				34FE6FDB198E269000E148C0 /* MobileCoreServices.framework in Frameworks */,
+				34FE6FD9198E268400E148C0 /* libz.dylib in Frameworks */,
+				34FE6FD7198E267D00E148C0 /* CoreLocation.framework in Frameworks */,
 				34FE6F96198E046D00E148C0 /* CoreGraphics.framework in Frameworks */,
+				34FE6FD5198E267100E148C0 /* CFNetwork.framework in Frameworks */,
+				34FE6FD4198E266B00E148C0 /* AudioToolbox.framework in Frameworks */,
+				34FE6FD2198E266400E148C0 /* Accounts.framework in Frameworks */,
+				34FE6FCE198E259E00E148C0 /* SystemConfiguration.framework in Frameworks */,
+				34FE6FCB198E231500E148C0 /* Parse.framework in Frameworks */,
+				34FE6FC9198E152F00E148C0 /* AVFoundation.framework in Frameworks */,
 				34FE6F98198E046D00E148C0 /* UIKit.framework in Frameworks */,
 				34FE6F94198E046D00E148C0 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +143,19 @@
 		34FE6F92198E046D00E148C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34FE6FE2198E26A400E148C0 /* StoreKit.framework */,
+				34FE6FE0198E26A000E148C0 /* Social.framework */,
+				34FE6FDE198E269B00E148C0 /* Security.framework */,
+				34FE6FDC198E269500E148C0 /* QuartzCore.framework */,
+				34FE6FDA198E269000E148C0 /* MobileCoreServices.framework */,
+				34FE6FD8198E268400E148C0 /* libz.dylib */,
+				34FE6FD6198E267D00E148C0 /* CoreLocation.framework */,
+				34FE6FD3198E266B00E148C0 /* AudioToolbox.framework */,
+				34FE6FD1198E266400E148C0 /* Accounts.framework */,
+				34FE6FCF198E261400E148C0 /* CFNetwork.framework */,
+				34FE6FCD198E259E00E148C0 /* SystemConfiguration.framework */,
+				34FE6FCA198E231500E148C0 /* Parse.framework */,
+				34FE6FC8198E152F00E148C0 /* AVFoundation.framework */,
 				34FE6F93198E046D00E148C0 /* Foundation.framework */,
 				34FE6F95198E046D00E148C0 /* CoreGraphics.framework */,
 				34FE6F97198E046D00E148C0 /* UIKit.framework */,
@@ -117,6 +172,8 @@
 				34FE6FA5198E046D00E148C0 /* Main.storyboard */,
 				34FE6FA8198E046D00E148C0 /* ViewController.h */,
 				34FE6FA9198E046D00E148C0 /* ViewController.m */,
+				34FE6FFF198E49C300E148C0 /* TextViewController.h */,
+				34FE7000198E49C300E148C0 /* TextViewController.m */,
 				34FE6FAB198E046D00E148C0 /* Images.xcassets */,
 				34FE6F9A198E046D00E148C0 /* Supporting Files */,
 			);
@@ -252,6 +309,7 @@
 				34FE6FAA198E046D00E148C0 /* ViewController.m in Sources */,
 				34FE6FA4198E046D00E148C0 /* AppDelegate.m in Sources */,
 				34FE6FA0198E046D00E148C0 /* main.m in Sources */,
+				34FE7001198E49C300E148C0 /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,9 +434,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/trineroks/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
 				INFOPLIST_FILE = "ThredditCamera/ThredditCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +452,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/trineroks/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThredditCamera/ThredditCamera-Prefix.pch";
 				INFOPLIST_FILE = "ThredditCamera/ThredditCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +524,7 @@
 				34FE6FC4198E046E00E148C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34FE6FC5198E046E00E148C0 /* Build configuration list for PBXNativeTarget "ThredditCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +533,7 @@
 				34FE6FC7198E046E00E148C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

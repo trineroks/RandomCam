@@ -6,13 +6,39 @@
 //  Copyright (c) 2014 trineroks. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Parse setApplicationId:@"I3oNtksMpt3mJloe6zmz1aoFR7CGJREJSVv72pjR"
+                  clientKey:@"UJSSHqT2ReaeBBRQK7IbgdGpmkndJE5WUMiEQb0x"];
+    
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"objectIDArray"])
+    {
+        [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"objectIDArray"];
+    }
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    PFUser *currentUser = [PFUser currentUser];
+    if (!currentUser)
+    {
+        PFUser *user = [PFUser user];
+        user.username = @"trineroks";
+        user.password = @"password";
+        user.email = @"trineroks@trineroks.com";
+        
+        [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (error)
+            {
+                [PFUser logInWithUsername:@"trineroks" password:@"password"];
+            }
+        }];
+    }
+    //self.window.rootViewController = self.viewController;
+    //[self.window makeKeyAndVisible];
     return YES;
 }
 							

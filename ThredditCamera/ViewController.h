@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#include <CoreLocation/CoreLocation.h>
+#import "TextViewController.h"
 
-@interface ViewController : UIViewController
+
+
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate>
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, readwrite) CLLocation *location;
+
+- (IBAction)cameraButtonClicked:(id)sender;
+- (IBAction)retrievePhoto:(UIButton *)sender;
 
 @end
