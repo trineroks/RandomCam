@@ -2,13 +2,13 @@
 //  ViewController.h
 //  ThredditCamera
 //
-//  Created by Jason Lee on 8/2/14.
+//  Created by trineroks on 8/2/14.
 //  Copyright (c) 2014 trineroks. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-#include <CoreLocation/CoreLocation.h>
+#import <CoreLocation/CoreLocation.h>
 #import "TextViewController.h"
 
 
@@ -16,6 +16,8 @@
 @interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+
 @property (nonatomic, retain) CLLocationManager *locationManager;
 @property (nonatomic, readwrite) CLLocation *location;
 

@@ -52,40 +52,11 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="imageView" destination="klC-N0-YMR" id="PCt-7x-YBh"/>
-                        <segue destination="ms2-3f-olY" kind="push" identifier="showTextViewController" id="2sc-Ii-h6N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="541" y="30"/>
-        </scene>
-        <!--Text View Controller-->
-        <scene sceneID="emo-uf-jMm">
-            <objects>
-                <viewController id="ms2-3f-olY" customClass="TextViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4IJ-Kf-cnA"/>
-                        <viewControllerLayoutGuide type="bottom" id="jCu-Ce-Mn4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jmo-Lk-Xk9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iga-GY-Saa">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="24h-MK-tnm"/>
-                    <connections>
-                        <outlet property="imageView" destination="Iga-GY-Saa" id="FPu-6R-oBD"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rZk-99-sP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="966" y="30"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FRE-LV-k8K">

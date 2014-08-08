@@ -2,7 +2,7 @@
 //  TextViewController.m
 //  ThredditCamera
 //
-//  Created by Jason Lee on 8/3/14.
+//  Created by trineroks on 8/3/14.
 //  Copyright (c) 2014 trineroks. All rights reserved.
 //
 
